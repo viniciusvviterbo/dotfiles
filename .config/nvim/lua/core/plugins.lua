@@ -19,16 +19,21 @@ return require('packer').startup(function(use)
     use 'nvim-tree/nvim-web-devicons' -- Adds file icons to file explorer
     use 'nvim-lualine/lualine.nvim' -- Status line
     use 'nvim-treesitter/nvim-treesitter' -- Nvim treesitter configurations and abstraction layer
-    use {
+    use { -- Package manager for LSP servers, DAP servers, linters and formatters
         "williamboman/mason.nvim",
         "williamboman/mason-lspconfig.nvim",
         "neovim/nvim-lspconfig",
     }
-    use {
+    use { -- Extensible fuzzy finder over lists
         'nvim-telescope/telescope.nvim',
         tag = '0.1.0',
         requires = { {'nvim-lua/plenary.nvim'} }
     }
+	use 'hrsh7th/nvim-cmp' -- The completion plugin
+	use 'hrsh7th/cmp-buffer' -- buffer completions
+	use 'hrsh7th/cmp-path' -- path completions
+	use 'akinsho/bufferline.nvim' -- Buffer line/tab page integration
+	use {"folke/which-key.nvim"} -- Displays pop-up with possible keybindings
 
     -- Automatically set up your configuration after cloning packer.nvim
     -- Put this at the end after all plugins

@@ -33,6 +33,7 @@ return require('packer').startup(function(use)
 	use 'hrsh7th/cmp-buffer' -- buffer completions
 	use 'hrsh7th/cmp-path' -- path completions
 	use 'akinsho/bufferline.nvim' -- Buffer line/tab page integration
+	use 'famiu/bufdelete.nvim' -- Buffer tab deletion without losing window layout
 	use {"folke/which-key.nvim"} -- Displays pop-up with possible keybindings
 
     -- Automatically set up your configuration after cloning packer.nvim

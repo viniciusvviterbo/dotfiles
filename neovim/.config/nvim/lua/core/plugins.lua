@@ -35,7 +35,8 @@ return require('packer').startup(function(use)
     use 'hrsh7th/cmp-nvim-lsp' -- LSP completions
 	use 'akinsho/bufferline.nvim' -- Buffer line/tab page integration
 	use 'famiu/bufdelete.nvim' -- Buffer tab deletion without losing window layout
-	use {"folke/which-key.nvim"} -- Displays pop-up with possible keybindings
+	use 'folke/which-key.nvim' -- Displays pop-up with possible keybindings
+	use 'windwp/nvim-autopairs' -- Automatically complete enclosure characters such as (), [] and {}. It integrates with cmp and treesitter 
 
     -- Automatically set up your configuration after cloning packer.nvim
     -- Put this at the end after all plugins

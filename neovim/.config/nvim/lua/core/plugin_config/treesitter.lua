@@ -30,7 +30,9 @@ require'nvim-treesitter.configs'.setup {
         "typescript",
         "vim",
         "yaml" },
-
+	autopairs = {
+		enabled = true
+	},
     -- Install parsers synchronously (only applied to `ensure_installed`)
     sync_install = false,
     auto_install = true,

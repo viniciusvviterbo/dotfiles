@@ -39,6 +39,7 @@ return require('packer').startup(function(use)
 	use 'folke/which-key.nvim' -- Displays pop-up with possible keybindings
 	use 'windwp/nvim-autopairs' -- Automatically complete enclosure characters such as (), [] and {}. It integrates with cmp and treesitter 
 	use 'lewis6991/gitsigns.nvim' -- Indicates git changes in the file with characters to the left of the line-number column
+	use 'akinsho/toggleterm.nvim' -- Opens terminal emulators
 
     -- Automatically set up your configuration after cloning packer.nvim
     -- Put this at the end after all plugins

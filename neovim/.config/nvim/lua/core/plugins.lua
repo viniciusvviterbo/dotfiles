@@ -32,6 +32,7 @@ return require('packer').startup(function(use)
 	use 'hrsh7th/nvim-cmp' -- The completion plugin
 	use 'hrsh7th/cmp-buffer' -- buffer completions
 	use 'hrsh7th/cmp-path' -- path completions
+    use 'hrsh7th/cmp-nvim-lsp' -- LSP completions
 	use 'akinsho/bufferline.nvim' -- Buffer line/tab page integration
 	use 'famiu/bufdelete.nvim' -- Buffer tab deletion without losing window layout
 	use {"folke/which-key.nvim"} -- Displays pop-up with possible keybindings

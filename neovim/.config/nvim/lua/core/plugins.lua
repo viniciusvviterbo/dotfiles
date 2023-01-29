@@ -1,3 +1,4 @@
+-- Automatically intall packer
 local ensure_packer = function()
     local fn = vim.fn
     local install_path = fn.stdpath('data')..'/site/pack/packer/start/packer.nvim'
@@ -37,6 +38,7 @@ return require('packer').startup(function(use)
 	use 'famiu/bufdelete.nvim' -- Buffer tab deletion without losing window layout
 	use 'folke/which-key.nvim' -- Displays pop-up with possible keybindings
 	use 'windwp/nvim-autopairs' -- Automatically complete enclosure characters such as (), [] and {}. It integrates with cmp and treesitter 
+	use 'lewis6991/gitsigns.nvim' -- Indicates git changes in the file with characters to the left of the line-number column
 
     -- Automatically set up your configuration after cloning packer.nvim
     -- Put this at the end after all plugins

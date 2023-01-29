@@ -1,6 +1,10 @@
 <h1 align="center">Dotfiles</h1>
 
 ## System Requirements
+- Arch
+```bash
+yay -S stow
+```
 - Fedora
 ```bash
 sudo dnf install stow

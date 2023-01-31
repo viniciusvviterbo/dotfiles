@@ -3,14 +3,15 @@
 ## System Requirements
 - Arch
 ```bash
-yay -S neovim make automake gcc gcc-c++ kernel-devel ripgrep \
+yay -S neovim make automake gcc gcc-c++ kernel-devel ripgrep lazygit \
 && \
 sudo npm i -g pyright typescript typescript-language-server
 ```
 
 - Fedora
 ```bash
-sudo dnf install neovim make automake gcc gcc-c++ kernel-devel ripgrep \
+sudo dnf copr enable atim/lazygit -y
+sudo install neovim make automake gcc gcc-c++ kernel-devel ripgrep lazygit \
 && \
 sudo npm i -g pyright typescript typescript-language-server
 

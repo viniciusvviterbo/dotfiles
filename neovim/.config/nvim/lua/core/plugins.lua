@@ -25,6 +25,7 @@ return require('packer').startup(function(use)
         "williamboman/mason-lspconfig.nvim",
         "neovim/nvim-lspconfig",
     }
+	use "jose-elias-alvarez/null-ls.nvim" -- Implements external linters like prettier and flak8 for formatting
     use { -- Extensible fuzzy finder over lists
         'nvim-telescope/telescope.nvim',
         tag = '0.1.0',

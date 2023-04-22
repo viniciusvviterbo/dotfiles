@@ -28,3 +28,4 @@ require('vscode').setup({
     }
     ]]--
 })
+require('vscode').load(vim.o.background)

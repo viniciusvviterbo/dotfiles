@@ -5,7 +5,9 @@
 ```bash
 yay -S neovim make automake gcc gcc-c++ kernel-devel ripgrep lazygit \
 && \
-sudo npm i -g pyright typescript typescript-language-server
+sudo npm i -g pyright typescript typescript-language-server \
+&& \
+rustup component add rust-analyzer
 ```
 
 - Fedora

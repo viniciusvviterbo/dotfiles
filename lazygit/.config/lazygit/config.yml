@@ -1,0 +1,7 @@
+# FULL DEFAULT CONFIGS ON https://github.com/jesseduffield/lazygit/blob/master/docs/Config.md
+
+keybinding:
+  universal:
+    quit: '<esc>' # [DEFAULT] quit: 'q'
+    # quit-alt1: '<c-c>' # alternative/alias of quit
+    return: 'q' # return to previous menu, will quit if there's nowhere to return # [DEFAULT] return: '<esc>'

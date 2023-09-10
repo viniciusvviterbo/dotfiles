@@ -3,7 +3,7 @@
 ## System Requirements
 - Arch
 ```bash
-yay -S neovim make automake gcc gcc-c++ kernel-devel ripgrep lazygit \
+yay -S neovim make automake gcc gcc-c++ kernel-devel ripgrep lazygit nerd-fonts \
 && \
 sudo npm i -g pyright typescript typescript-language-server \
 && \

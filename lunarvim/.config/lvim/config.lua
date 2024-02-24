@@ -5,6 +5,9 @@
 
 local config_path = '/home/vinicius/.config/lvim/'
 
+-- Set yank operation to copy to system clipboard
+vim.opt.clipboard:append("unnamedplus")
+
 dofile(config_path .. 'remap.lua')
 
 dofile(config_path .. 'which_key.lua')
@@ -12,12 +15,10 @@ dofile(config_path .. 'which_key.lua')
 dofile(config_path .. 'toggle_term.lua')
 
 
-
-
 -- local on_attach = function(client)
 --   require'completion'.on_attach(client)
 -- end
--- 
+--
 -- lvim.lsp.['rust_analyzer'].setup({
 --   on_attach=on_attach,
 --   settings = {
@@ -39,4 +40,3 @@ dofile(config_path .. 'toggle_term.lua')
 --     }
 --   }
 -- })
-

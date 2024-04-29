@@ -16,6 +16,14 @@ echo 'source /usr/share/zsh-theme-powerlevel10k/powerlevel10k.zsh-theme' >>~/.zs
 
 Either run `p10k configure`, or load the config files in this subdirectory
 
-- Fedora
+Change default shell
+```bash
+chsh -s /usr/bin/zsh
+```
 
+- Fedora
 Yet to be configured
+
+
+- GNOME
+If using the GNOME Terminal, set `Preferences > Profiles > [profile-name] > Command > Custom command` to `/usr/bin/zsh`, so it always starts the application as ZSH

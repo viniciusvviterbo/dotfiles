@@ -100,7 +100,11 @@ alias ls='ls --color=auto'
 alias grep='grep --color auto'
 alias code='vscodium'
 
-source /usr/share/zsh-theme-powerlevel10k/powerlevel10k.zsh-theme
 
+# Enable highlighting plugin
+source /usr/share/zsh/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+
+# Enable p10k theme
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
+source /usr/share/zsh-theme-powerlevel10k/powerlevel10k.zsh-theme
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh

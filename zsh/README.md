@@ -6,12 +6,14 @@
 yay -S zsh nerd-fonts
 ```
 
-Install the ZSH theme [powerlevel10k](https://github.com/romkatv/powerlevel10k)
+Install the ZSH theme [powerlevel10k](https://github.com/romkatv/powerlevel10k) and [syntax highlighting](https://github.com/zsh-users/zsh-syntax-highlighting)
 
 ```bash
-yay -S  zsh-theme-powerlevel10k-git \
+yay -S  zsh-theme-powerlevel10k-git zsh-syntax-highlighting \
 && \
-echo 'source /usr/share/zsh-theme-powerlevel10k/powerlevel10k.zsh-theme' >>~/.zshrc
+echo 'source /usr/share/zsh-theme-powerlevel10k/powerlevel10k.zsh-theme' >>~/.zshrc \
+&& \
+echo "source /usr/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh" >> ~/.zshrc
 ```
 
 Either run `p10k configure`, or load the config files in this subdirectory

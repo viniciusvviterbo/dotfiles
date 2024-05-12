@@ -101,6 +101,10 @@ alias grep='grep --color auto'
 alias code='vscodium'
 
 
+# Sets Ctrl + right arrow to go to next word limiter, and Ctrl + left arrow to go to previous word limiter
+bindkey ";5C" forward-word
+bindkey ";5D" backward-word
+
 # Enable autosuggestions plugin
 source /usr/share/zsh/plugins/zsh-autosuggestions/zsh-autosuggestions.zsh
 

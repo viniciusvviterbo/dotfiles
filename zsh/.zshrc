@@ -101,6 +101,9 @@ alias grep='grep --color auto'
 alias code='vscodium'
 
 
+# Enable autosuggestions plugin
+source /usr/share/zsh/plugins/zsh-autosuggestions/zsh-autosuggestions.zsh
+
 # Enable highlighting plugin
 source /usr/share/zsh/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 

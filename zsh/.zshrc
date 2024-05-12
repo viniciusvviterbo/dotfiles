@@ -41,6 +41,13 @@ fi
 # Uncomment the following line to enable command auto-correction.
 # ENABLE_CORRECTION="true"
 
+# History file for zsh
+HISTFILE=~/.zsh_history
+
+# How many commands to store in history
+HISTSIZE=10000
+SAVEHIST=50000
+
 # Uncomment the following line to display red dots whilst waiting for completion.
 # You can also set it to another string to have that shown instead of the default red dots.
 # e.g. COMPLETION_WAITING_DOTS="%F{yellow}waiting...%f"

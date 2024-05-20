@@ -101,17 +101,17 @@ alias grep='grep --color=auto'
 alias code='vscodium'
 
 
-# Sets Ctrl + right arrow to go to next word limiter, and Ctrl + left arrow to go to previous word limiter
-bindkey ";5C" forward-word
-bindkey ";5D" backward-word
-
 # Sets ZSH to respond to certain keys in keyboard. May change on terminal emulator and keyboard/computer
 # being used.
 # To check the code of keys, execute cat, press enter, press the desired key.
 # More details on https://stackoverflow.com/questions/8638012/fix-key-settings-home-end-insert-delete-in-zshrc-when-running-zsh-in-terminat
-bindkey "^[[1~" beggining-of-line
-bindkey "^[[4~" end-of-line
-bindkey "^[[3~" delete-char
+#
+# Sets Ctrl + right arrow to go to next word limiter, and Ctrl + left arrow to go to previous word limiter
+bindkey "^[[1;5C" forward-word # Ctrl + right arrow
+bindkey "^[[1;5D" backward-word # Ctrl + left arrow
+bindkey "^[[1~" beginning-of-line # Home
+bindkey "^[[4~" end-of-line # End
+bindkey "^[[3~" delete-char # Delete
 
 # Enable autosuggestions plugin
 source /usr/share/zsh/plugins/zsh-autosuggestions/zsh-autosuggestions.zsh

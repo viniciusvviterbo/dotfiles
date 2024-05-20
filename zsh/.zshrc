@@ -105,6 +105,14 @@ alias code='vscodium'
 bindkey ";5C" forward-word
 bindkey ";5D" backward-word
 
+# Sets ZSH to respond to certain keys in keyboard. May change on terminal emulator and keyboard/computer
+# being used.
+# To check the code of keys, execute cat, press enter, press the desired key.
+# More details on https://stackoverflow.com/questions/8638012/fix-key-settings-home-end-insert-delete-in-zshrc-when-running-zsh-in-terminat
+bindkey "^[[1~" beggining-of-line
+bindkey "^[[4~" end-of-line
+bindkey "^[[3~" delete-char
+
 # Enable autosuggestions plugin
 source /usr/share/zsh/plugins/zsh-autosuggestions/zsh-autosuggestions.zsh
 

@@ -3,7 +3,7 @@
 ## System Requirements
 - Arch
 ```bash
-yay -S tmux nerd-fonts
+yay -S tmux nerd-fonts xsel
 ```
 
 Install the [catppuccin](https://github.com/catppuccin/tmux) plugin and add run configurations (if needed)

@@ -99,7 +99,7 @@ plugins=()
 alias ls='ls --color=auto'
 alias grep='grep --color=auto'
 alias code='vscodium'
-
+alias matrix='bash <(curl -s https://raw.githubusercontent.com/wick3dr0se/matrix/main/matrix)'
 
 # Sets ZSH to respond to certain keys in keyboard. May change on terminal emulator and keyboard/computer
 # being used.
